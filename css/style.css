@@ -638,3 +638,62 @@ li>a:only-child:after {
     border-bottom: 1px solid rgba(221, 221, 221, 0.25);
     padding-bottom: 1em;
 }
+
+/* Social Icons */
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* width: 80px; */
+    /* height: 80px; */
+    /* margin: 0 0.5rem; */
+    /* border-radius: 50%; */
+    cursor: pointer;
+    /* font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+    /* font-size: 2.5rem; */
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.15s ease;
+}
+
+.social-icon:hover {
+    color: #fff;
+}
+
+.social-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -150%);
+    transform: translate(-50%, -150%);
+}
+
+.social-icon:active {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+
+.social-icon {
+    background: linear-gradient(tint(#000, 5%), shade(#000, 5%));
+    border-bottom: 1px solid shade(#000, 20%);
+    color: tint(#000, 50%);
+}
+
+.social-icon:hover {
+    color: tint(#000, 80%);
+    text-shadow: 0px 1px 0px shade(#000, 20%);
+}
+
+.social-icon .tooltip {
+    background: #fff;
+    background: linear-gradient(tint(#000, 15%), #000);
+    color: tint(#000, 80%);
+}
+
+.social-icon .tooltip:after {
+    border-top-color: #fff;
+}
+
+.social-icon span {
+    position: relative;
+    top: 1px;
+}
