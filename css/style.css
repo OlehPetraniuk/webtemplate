@@ -550,3 +550,91 @@ li>a:only-child:after {
 .st-slider>#play1:checked~.images .images-inner {
     animation: slide 12300ms infinite;
 }
+
+/* background images for banner */
+.banner-w3pvt-1 {
+    background: url(../images/banner1.jpg) no-repeat top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 800px;
+}
+
+.banner-w3pvt-2 {
+    background: url(../images/banner2.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 800px;
+}
+
+.banner-w3pvt-3 {
+    background: url(../images/banner3.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 800px;
+}
+
+.overlay-w3ls {
+    background: rgba(0, 0, 0, 0.55);
+    min-height: 800px;
+}
+
+.images-inner {
+    position: relative;
+}
+
+.banner-hny-info h3 {
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    text-align: center;
+    color: #fff;
+}
+
+.btn {
+    border: 2px solid #fff;
+    padding: 11px 30px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    display: inline-block;
+
+}
+
+.btn:hover {
+    background: #feac00;
+    border: 2px solid #feac00;
+    color: #333;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+}
+
+.btn.more {
+    background: #feac00;
+    border: 2px solid #feac00;
+    color: #222;
+}
+
+.btn.more.black:hover {
+    background: #212529;
+    border: 2px solid #212529;
+    color: #feac00;
+}
+
+.wthree-w3ls {
+    border-bottom: 1px solid rgba(221, 221, 221, 0.25);
+    padding-bottom: 1em;
+}
