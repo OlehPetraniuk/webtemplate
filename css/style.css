@@ -697,3 +697,38 @@ li>a:only-child:after {
     position: relative;
     top: 1px;
 }
+
+/* Tooltips */
+.tooltip {
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    padding: 0.2rem 1rem;
+    border-radius: 0px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    transition: all 0.3s ease;
+    z-index: 1;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.tooltip:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    border: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: transparent;
+    -webkit-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+}
