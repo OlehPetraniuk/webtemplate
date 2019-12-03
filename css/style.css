@@ -1300,3 +1300,45 @@ ol.breadcrumb li a {
     min-height: 400px;
     border: none;
 }
+
+/*--/single --*/
+h4.title-hny {
+    color: #3e3b3b;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.social-icons-footer ul li {
+    display: inline-block;
+    color: #555;
+    list-style: none;
+}
+
+.social-icons-footer ul li a {
+    margin: 0 0.5em;
+    color: #333;
+}
+
+.social-icons-footer ul li a:hover {
+    color: #feac00;
+}
+
+.comments-grid-right h4 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.comments-grid-right ul li {
+    display: inline-block;
+    color: #888;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.comments-grid-right ul li a {
+    color: #feac00;
+}
+
+.single-page-form {}
