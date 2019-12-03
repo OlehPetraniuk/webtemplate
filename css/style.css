@@ -1133,3 +1133,53 @@ p.news-para {
 .con-gd :-ms-input-placeholder {
     color: #777;
 }
+
+/* testimonials */
+.testmonials {
+    background: url(../images/banner3.jpg) no-repeat top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.testimonials-gd-vj {
+    box-shadow: 0px 0px 18.69px 2.31px rgba(98, 98, 103, 0);
+    background: #fff;
+}
+
+p.sub-test {
+    color: #666;
+    font-size: 14px;
+}
+
+p.sub-test span {
+    font-size: 1.7em;
+    margin-right: 0.3em;
+    color: #ddd;
+}
+
+.testi_grid h5 {
+    color: #2f2e31;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.testi_grid p {
+    font-size: 13px;
+    line-height: 0.5em;
+}
+
+section.hand-crafted p {
+    color: #6e7275;
+}
+
+.testi-img-res img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
