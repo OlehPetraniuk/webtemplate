@@ -1778,3 +1778,99 @@ h4.title-hny {
 }
 
 @media screen and (max-width: 320px) {}
+
+/*-- footer --*/
+footer,
+.copy_right {
+    background: #222;
+}
+
+.footer-grids h4 {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.footer-grids h5 {
+    color: #666;
+}
+
+.footer-grids h5 span {
+    color: #feac00;
+}
+
+.footer-grids p,
+.footer-grids p a,
+.copyright p,
+.copyright p a {
+    font-size: 15px;
+    color: #777;
+    font-weight: normal;
+    letter-spacing: .5px;
+}
+
+.footer-grids ul li a {
+    font-size: 15px;
+    color: #777;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.footer-grids ul li {
+    list-style-type: none;
+}
+
+.footer-grids input[type="email"] {
+    background: #fff;
+    box-shadow: none !important;
+    padding: 12px 15px;
+    color: #777;
+    font-size: 14px;
+    border: none;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.footer-grids button.btn {
+    background: #feac00;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+h2 a.navbar-brand {
+    color: #fff;
+}
+
+.icon-social a {
+    color: #fff;
+    margin-right: 0.5em;
+}
+
+ul.list-info-wthree li a {
+    display: block;
+    margin: 1em 0;
+}
+
+ul.list-info-wthree li a:hover {
+    color: #555;
+
+}
+
+.ad-info p {
+    display: block;
+    margin: 1em 0;
+}
+
+.ad-info p span {
+    margin-right: 0.5em;
+}
