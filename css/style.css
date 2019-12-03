@@ -1623,3 +1623,88 @@ h4.title-hny {
 #timeline .demo-card--step5 .head::after {
     border-color: #3c3d3e;
 }
+
+/* typography */
+
+.typo-wthree h4.typo {
+    color: #333;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.grid-bg {
+    border: 2px solid #f7f7f7;
+}
+
+.sub-code {
+    padding: 2em;
+    background: #f7f7f7;
+}
+
+.highlight.sub-code span {
+    color: #777;
+}
+
+.bd-example {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: .2rem;
+}
+
+.bd-example-container {
+    min-width: 16rem;
+    max-width: 25rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bd-example-container-body {
+    height: 8rem;
+    margin-right: 4.5rem;
+    background-color: #f7f7f7;
+    border-radius: .25rem;
+}
+
+.bd-example-container-sidebar {
+    float: right;
+    width: 4rem;
+    height: 8rem;
+    background-color: #2f2e41;
+    border-radius: .25rem;
+}
+
+.media span {
+    font-size: 4em;
+    color: #555;
+}
+
+.media-body h5 {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 1em;
+}
+
+.bread-w3ls .breadcrumb {
+    background: #eee;
+}
+
+.bread-w3ls .breadcrumb-item.active {
+    color: #6c757d;
+}
+
+.bread-w3ls .breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #555;
+    content: "/";
+}
+
+.bread-w3ls li.breadcrumb-item a {
+    color: #777;
+}
+
+.bread-w3ls nav a {
+    padding: 0;
+}
