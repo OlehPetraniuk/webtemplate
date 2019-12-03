@@ -1183,3 +1183,76 @@ section.hand-crafted p {
     -o-border-radius: 50%;
     border-radius: 50%;
 }
+
+/*--/inner-w3pvt-page-- */
+
+.inner-w3pvt-page {
+    background: url(../images/banner1.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 11em;
+}
+
+.overlay-innerpage {
+    min-height: 11em;
+    background: rgba(0, 0, 0, 0.44);
+}
+
+.inner-w3pvt-page-info {
+    padding-top: 7em;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+ol.breadcrumb {
+    margin: 0;
+    padding: 0;
+}
+
+ol.breadcrumb li {
+    padding: 0;
+    color: #555;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: rgba(140, 156, 171, 0.22);
+    margin-right: 0.5em;
+    color: #fff;
+    border-radius: 0;
+    background: transparent;
+}
+
+ol.breadcrumb li a {
+    color: #feac00;
+}
+
+.breadcrumb-item.active {
+    color: #fff;
+}
+
+.breadcrumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    /* background: none; */
+    border-radius: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #fff;
+    content: "/";
+}
