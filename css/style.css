@@ -1708,3 +1708,73 @@ h4.title-hny {
 .bread-w3ls nav a {
     padding: 0;
 }
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 320px) {}
+
+/*--/error--*/
+.error-w3pvt h3 {
+    font-size: 10em;
+    font-weight: bold;
+}
+
+.error-w3pvt h4 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: lighter;
+    letter-spacing: 30px;
+}
+
+.error-w3pvt h5 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin: 1em 0;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    color: #777;
+}
+
+/*--//error--*/
+
+@media screen and (max-width: 991px) {
+    .error-w3pvt h3 {
+        font-size: 7em;
+    }
+
+    .error-w3pvt h4 {
+        font-size: 1.1em;
+        letter-spacing: 11px;
+    }
+
+    .error-w3pvt h5 {
+        font-size: 1em;
+    }
+
+    .copy_right p {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 0.5em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .error-w3pvt h3 {
+        font-size: 6em;
+    }
+
+    .error-w3pvt h4 {
+        font-size: 1em;
+        letter-spacing: 11px;
+    }
+
+    .error-w3pvt h5 {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 320px) {}
