@@ -1874,3 +1874,26 @@ ul.list-info-wthree li a:hover {
 .ad-info p span {
     margin-right: 0.5em;
 }
+
+/*--/copy_right--*/
+
+
+.copy_right {
+    border-top: 1px solid rgba(221, 221, 221, 0.12);
+}
+
+.copy_right p a {
+    color: #fff;
+}
+
+.copy_right p a:hover {
+    opacity: .8;
+}
+
+.copy_right p {
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+    margin-top: 0.5em;
+}
