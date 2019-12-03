@@ -999,3 +999,77 @@ span.decription {
 .popup .close:hover {
     color: #30c39e;
 }
+
+/*-- /blogs--*/
+.blog-grid-img img {
+    border-radius: 0px;
+}
+
+.blog-grid-info {
+    background: #212529;
+}
+
+.date-post {
+    padding: 3em;
+}
+
+
+.date-post .link-hny {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.date-post p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+
+.date-post h4 {
+    margin: 0.3em 0;
+}
+
+h6.date {
+    font-size: 0.8em;
+    color: #feac00;
+}
+
+/*-- //blogs--*/
+.login label {
+    color: #777879;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.link-hny {
+    color: #222222;
+
+}
+
+.link-hny:hover {
+    color: #ffc107;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+}
+
+.apply-main .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-bottom: 2px solid #ddd;
+}
